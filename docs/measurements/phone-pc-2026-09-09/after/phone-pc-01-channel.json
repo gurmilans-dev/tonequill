@@ -1,0 +1,576 @@
+{
+  "recording": "captures\\phone-pc-01.wav",
+  "sha256": "548cefb095ee56f51c23ab720cd69a49c6033deb117cc4ffe862daf8f145f5e9",
+  "duration_s": 13.26,
+  "rms": 0.04753426835622542,
+  "peak": 0.26499221778008364,
+  "pcm_rail_samples": 0,
+  "warning": "Reference-labelled measurements, not receive results or a unique physical impulse response.",
+  "frames": [
+    {
+      "candidate": 0,
+      "start_sample": 79680.0,
+      "samples_per_symbol": 479.988134501,
+      "reference_bits": 664,
+      "active_rms": 0.056042250825907976,
+      "blocks": [
+        {
+          "first_bit": 0,
+          "end_bit": 64,
+          "desired_carrier_median_power": [
+            0.002107233606488745,
+            0.006638126118930212
+          ],
+          "energy_ratio_quantiles_by_bit": [
+            [
+              0.639894258502528,
+              0.923193340233464,
+              1.2489521370846148
+            ],
+            [
+              29.329629749944903,
+              56.135721004702916,
+              126.75318831269132
+            ]
+          ]
+        },
+        {
+          "first_bit": 64,
+          "end_bit": 128,
+          "desired_carrier_median_power": [
+            0.001743199933096598,
+            0.0049176978664166125
+          ],
+          "energy_ratio_quantiles_by_bit": [
+            [
+              0.00815345235037696,
+              0.1315240491884904,
+              1.1042977513121937
+            ],
+            [
+              4.325034958842972,
+              23.39294034312297,
+              96.17835313093948
+            ]
+          ]
+        },
+        {
+          "first_bit": 128,
+          "end_bit": 192,
+          "desired_carrier_median_power": [
+            0.0019720098146056584,
+            0.0039238162699104
+          ],
+          "energy_ratio_quantiles_by_bit": [
+            [
+              0.0003421670849933829,
+              0.009517284113320108,
+              0.6049505807802389
+            ],
+            [
+              2.717663381544421,
+              10.878585096356588,
+              125.85384257382815
+            ]
+          ]
+        },
+        {
+          "first_bit": 192,
+          "end_bit": 256,
+          "desired_carrier_median_power": [
+            0.0015688045883029478,
+            0.0017167522469394621
+          ],
+          "energy_ratio_quantiles_by_bit": [
+            [
+              0.00010814580320996877,
+              0.000628092229250099,
+              0.0022106068206706984
+            ],
+            [
+              2.140423636887212,
+              2.140423636887212,
+              2.140423636887212
+            ]
+          ]
+        },
+        {
+          "first_bit": 256,
+          "end_bit": 320,
+          "desired_carrier_median_power": [
+            0.0013913227168269758,
+            0.0013329666669925847
+          ],
+          "energy_ratio_quantiles_by_bit": [
+            [
+              0.00017598324312883437,
+              0.0016399797816624656,
+              0.8391613869589443
+            ],
+            [
+              1.4573125909096953,
+              4.8500215440613,
+              75.19960293051707
+            ]
+          ]
+        },
+        {
+          "first_bit": 320,
+          "end_bit": 384,
+          "desired_carrier_median_power": [
+            0.002192129990945469,
+            0.0022898661558434213
+          ],
+          "energy_ratio_quantiles_by_bit": [
+            [
+              0.011935489751288048,
+              0.15633603345431918,
+              1.4166618241145625
+            ],
+            [
+              1.8941405896472145,
+              9.859983795231324,
+              81.46908018985724
+            ]
+          ]
+        },
+        {
+          "first_bit": 384,
+          "end_bit": 448,
+          "desired_carrier_median_power": [
+            0.0016473811837709536,
+            0.0021923041512846523
+          ],
+          "energy_ratio_quantiles_by_bit": [
+            [
+              0.056562972772412144,
+              0.2784067722385357,
+              1.513547157985537
+            ],
+            [
+              2.043933942067493,
+              10.000608601281098,
+              75.66176238146372
+            ]
+          ]
+        },
+        {
+          "first_bit": 448,
+          "end_bit": 512,
+          "desired_carrier_median_power": [
+            0.001515710615749005,
+            0.002096705875320267
+          ],
+          "energy_ratio_quantiles_by_bit": [
+            [
+              0.01025278372790422,
+              0.10248762760137216,
+              1.265835569502292
+            ],
+            [
+              2.547462844274089,
+              8.66313336938966,
+              83.41458295457318
+            ]
+          ]
+        },
+        {
+          "first_bit": 512,
+          "end_bit": 576,
+          "desired_carrier_median_power": [
+            0.0016578520937158138,
+            0.0019040384670657344
+          ],
+          "energy_ratio_quantiles_by_bit": [
+            [
+              0.03603575106490837,
+              0.10818429392566135,
+              1.1844561480971012
+            ],
+            [
+              1.881200518130304,
+              6.687635449174945,
+              21.94217854903409
+            ]
+          ]
+        },
+        {
+          "first_bit": 576,
+          "end_bit": 640,
+          "desired_carrier_median_power": [
+            0.001228517737005327,
+            0.0013649898926585773
+          ],
+          "energy_ratio_quantiles_by_bit": [
+            [
+              0.024538603818329632,
+              0.1655957208222369,
+              1.2605232592824844
+            ],
+            [
+              1.569574021866837,
+              12.680023611907714,
+              76.5759917322162
+            ]
+          ]
+        },
+        {
+          "first_bit": 640,
+          "end_bit": 664,
+          "desired_carrier_median_power": [
+            0.001002877314855493,
+            0.005844745109709201
+          ],
+          "energy_ratio_quantiles_by_bit": [
+            [
+              0.15553092824171436,
+              0.5546385860422518,
+              1.3376394721260336
+            ],
+            [
+              4.2267559683062155,
+              58.456986659503706,
+              540.9068363662665
+            ]
+          ]
+        }
+      ],
+      "memory_fits": [
+        {
+          "tone": 0,
+          "memory_symbols": 0,
+          "all_symbols_reference_fitted_r_squared": 0.5612919585908187,
+          "training_only_to_payload_r_squared": 0.4539697761682461,
+          "all_symbols_fitted_tap_magnitudes": [
+            0.05017312645931678
+          ]
+        },
+        {
+          "tone": 0,
+          "memory_symbols": 2,
+          "all_symbols_reference_fitted_r_squared": 0.7701182718046018,
+          "training_only_to_payload_r_squared": 0.4622345558924217,
+          "all_symbols_fitted_tap_magnitudes": [
+            0.05036577612824875,
+            0.02683481849042247,
+            0.014609619314916646
+          ]
+        },
+        {
+          "tone": 0,
+          "memory_symbols": 4,
+          "all_symbols_reference_fitted_r_squared": 0.7877122685190953,
+          "training_only_to_payload_r_squared": 0.21415355677678682,
+          "all_symbols_fitted_tap_magnitudes": [
+            0.050607392942989285,
+            0.02821747506063643,
+            0.013882695029063677,
+            0.007548088594564063,
+            0.0051728503410383014
+          ]
+        },
+        {
+          "tone": 0,
+          "memory_symbols": 8,
+          "all_symbols_reference_fitted_r_squared": 0.8625439905579505,
+          "training_only_to_payload_r_squared": 0.6394069212087028,
+          "all_symbols_fitted_tap_magnitudes": [
+            0.05111601421387654,
+            0.03253100529041819,
+            0.014858698290248568,
+            0.0036602733246352357,
+            0.006120085450263401,
+            0.013995694121685057,
+            0.005258261586227091,
+            0.009576325239370385,
+            0.002168252372336344
+          ]
+        },
+        {
+          "tone": 1,
+          "memory_symbols": 0,
+          "all_symbols_reference_fitted_r_squared": 0.3935949912164064,
+          "training_only_to_payload_r_squared": -1.711009629143831,
+          "all_symbols_fitted_tap_magnitudes": [
+            0.06331667294730516
+          ]
+        },
+        {
+          "tone": 1,
+          "memory_symbols": 2,
+          "all_symbols_reference_fitted_r_squared": 0.6614222023159042,
+          "training_only_to_payload_r_squared": -0.2761571859127494,
+          "all_symbols_fitted_tap_magnitudes": [
+            0.06002245291445658,
+            0.045592227875083824,
+            0.026727093980304352
+          ]
+        },
+        {
+          "tone": 1,
+          "memory_symbols": 4,
+          "all_symbols_reference_fitted_r_squared": 0.6927156140714411,
+          "training_only_to_payload_r_squared": -0.16705558330597814,
+          "all_symbols_fitted_tap_magnitudes": [
+            0.06068744211115467,
+            0.04288382944556049,
+            0.026488497035828902,
+            0.015961404225993688,
+            0.009090621333322653
+          ]
+        },
+        {
+          "tone": 1,
+          "memory_symbols": 8,
+          "all_symbols_reference_fitted_r_squared": 0.7043797732612526,
+          "training_only_to_payload_r_squared": -0.1808679646092688,
+          "all_symbols_fitted_tap_magnitudes": [
+            0.06010851555757576,
+            0.0408927216051285,
+            0.026020531822072056,
+            0.013812007234695287,
+            0.0088488523719381,
+            0.005411858360209331,
+            0.0019163507093010934,
+            0.008174804766285683,
+            0.004426615477530274
+          ]
+        }
+      ],
+      "gap_to_next_s": 0.20016666666666666,
+      "gap_first_half_rms": 0.014964773226923606,
+      "gap_second_half_rms": 0.013755228182527016
+    },
+    {
+      "candidate": 1,
+      "start_sample": 408000.0,
+      "samples_per_symbol": 480.0,
+      "reference_bits": 328,
+      "active_rms": 0.05236431110041394,
+      "blocks": [
+        {
+          "first_bit": 0,
+          "end_bit": 64,
+          "desired_carrier_median_power": [
+            0.0013992927802757437,
+            0.007590240021901423
+          ],
+          "energy_ratio_quantiles_by_bit": [
+            [
+              0.5737519495597707,
+              0.798633668687246,
+              1.107116348368589
+            ],
+            [
+              17.895257733225296,
+              44.822291532433255,
+              227.24879413483617
+            ]
+          ]
+        },
+        {
+          "first_bit": 64,
+          "end_bit": 128,
+          "desired_carrier_median_power": [
+            0.0011937310999450552,
+            0.0019058834541880935
+          ],
+          "energy_ratio_quantiles_by_bit": [
+            [
+              0.006972346236357992,
+              0.09399905223865067,
+              1.8684104627742537
+            ],
+            [
+              0.9431990278559127,
+              17.069820494584604,
+              99.30075432609219
+            ]
+          ]
+        },
+        {
+          "first_bit": 128,
+          "end_bit": 192,
+          "desired_carrier_median_power": [
+            0.001324861359077964,
+            0.000839210774755545
+          ],
+          "energy_ratio_quantiles_by_bit": [
+            [
+              0.0005919605854376952,
+              0.022935110823232494,
+              1.1515311028640955
+            ],
+            [
+              0.542475390364924,
+              3.175825358644314,
+              20.94116236360667
+            ]
+          ]
+        },
+        {
+          "first_bit": 192,
+          "end_bit": 256,
+          "desired_carrier_median_power": [
+            0.0010905077000280326,
+            0.0014517789480606206
+          ],
+          "energy_ratio_quantiles_by_bit": [
+            [
+              0.0344965232518678,
+              0.29681211190868384,
+              2.73863338092879
+            ],
+            [
+              0.5561364949541041,
+              5.617541548543397,
+              99.64425593386342
+            ]
+          ]
+        },
+        {
+          "first_bit": 256,
+          "end_bit": 320,
+          "desired_carrier_median_power": [
+            0.00123912160595094,
+            0.0007724127738957419
+          ],
+          "energy_ratio_quantiles_by_bit": [
+            [
+              0.013672444830713875,
+              0.1626664797025238,
+              2.6074042044781733
+            ],
+            [
+              0.6530754261011222,
+              4.783476659581392,
+              24.720808110487106
+            ]
+          ]
+        },
+        {
+          "first_bit": 320,
+          "end_bit": 328,
+          "desired_carrier_median_power": [
+            0.0008974525446604771,
+            0.001152886872489962
+          ],
+          "energy_ratio_quantiles_by_bit": [
+            [
+              0.7455319032821195,
+              1.0664723516141732,
+              1.387412799946227
+            ],
+            [
+              5.011633741665611,
+              10.458146043685016,
+              25.490855905828845
+            ]
+          ]
+        }
+      ],
+      "memory_fits": [
+        {
+          "tone": 0,
+          "memory_symbols": 0,
+          "all_symbols_reference_fitted_r_squared": 0.4307926563843145,
+          "training_only_to_payload_r_squared": 0.13922692927164793,
+          "all_symbols_fitted_tap_magnitudes": [
+            0.03707701394191136
+          ]
+        },
+        {
+          "tone": 0,
+          "memory_symbols": 2,
+          "all_symbols_reference_fitted_r_squared": 0.7453923295082572,
+          "training_only_to_payload_r_squared": 0.4616752464774314,
+          "all_symbols_fitted_tap_magnitudes": [
+            0.040760091531118564,
+            0.026336262638225718,
+            0.020295817339418643
+          ]
+        },
+        {
+          "tone": 0,
+          "memory_symbols": 4,
+          "all_symbols_reference_fitted_r_squared": 0.7880751300522869,
+          "training_only_to_payload_r_squared": 0.42418625561265777,
+          "all_symbols_fitted_tap_magnitudes": [
+            0.04100236606816917,
+            0.02795651950477399,
+            0.01810343078915936,
+            0.007807339051553846,
+            0.00868295658099272
+          ]
+        },
+        {
+          "tone": 0,
+          "memory_symbols": 8,
+          "all_symbols_reference_fitted_r_squared": 0.8826010750515056,
+          "training_only_to_payload_r_squared": 0.7193427693614354,
+          "all_symbols_fitted_tap_magnitudes": [
+            0.04156656866957613,
+            0.03280711743442602,
+            0.01896817779711421,
+            0.003829317989765422,
+            0.008033816912361423,
+            0.01411074006238526,
+            0.005231424861304352,
+            0.00966094030920305,
+            0.0010555282970284336
+          ]
+        },
+        {
+          "tone": 1,
+          "memory_symbols": 0,
+          "all_symbols_reference_fitted_r_squared": 0.32179873647457957,
+          "training_only_to_payload_r_squared": -2.4603537663674144,
+          "all_symbols_fitted_tap_magnitudes": [
+            0.05133677987779742
+          ]
+        },
+        {
+          "tone": 1,
+          "memory_symbols": 2,
+          "all_symbols_reference_fitted_r_squared": 0.5960286154414727,
+          "training_only_to_payload_r_squared": -1.2102773181959856,
+          "all_symbols_fitted_tap_magnitudes": [
+            0.04418897794268235,
+            0.03356086125885926,
+            0.031882139475786414
+          ]
+        },
+        {
+          "tone": 1,
+          "memory_symbols": 4,
+          "all_symbols_reference_fitted_r_squared": 0.6171693529576694,
+          "training_only_to_payload_r_squared": -1.0878800215257667,
+          "all_symbols_fitted_tap_magnitudes": [
+            0.042555635814839725,
+            0.032894024269629764,
+            0.03019936557109783,
+            0.00836270264606648,
+            0.010252782011822247
+          ]
+        },
+        {
+          "tone": 1,
+          "memory_symbols": 8,
+          "all_symbols_reference_fitted_r_squared": 0.66208862039758,
+          "training_only_to_payload_r_squared": -2.4419095297544544,
+          "all_symbols_fitted_tap_magnitudes": [
+            0.03712271915456005,
+            0.03263456511885218,
+            0.028609590446507467,
+            0.006526209356438987,
+            0.006657354299438441,
+            0.00753918688357949,
+            0.010680760200112846,
+            0.007627025825199397,
+            0.010495587808154282
+          ]
+        }
+      ]
+    }
+  ]
+}

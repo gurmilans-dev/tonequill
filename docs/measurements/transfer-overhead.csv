@@ -1,0 +1,3 @@
+filename,file_bytes,data_packets,metadata_frames,total_frames,frame_bytes,modulated_bits,modulated_seconds,silence_seconds,total_seconds,wav_pcm_bytes
+sample.bin,1024,4,1,5,1204,9632,96.32,1.20,97.52,9361920
+sample.bin,10240,40,1,41,11284,90272,902.72,8.40,911.12,87467520

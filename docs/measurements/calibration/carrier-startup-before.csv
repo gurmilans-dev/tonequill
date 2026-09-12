@@ -1,0 +1,4 @@
+snr_db,total_packets,valid_packets,total_bits,compared_bits,bit_errors,missing_bits,ber,per,acquisition_failures,crc_failures,protocol_failures,truncated_frames,incorrect_valid_packets
+15,200,1,65600,32168,291,33432,0.00904626,0.995000,0,0,199,0,0
+10,200,20,65600,35360,281,30240,0.00794683,0.900000,0,0,180,0,0
+5,200,22,65600,35696,325,29904,0.00910466,0.890000,0,0,178,0,0

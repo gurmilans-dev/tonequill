@@ -1,0 +1,9 @@
+candidates: 1; start: 36600.00 samples; acquisition preamble: 62/64; sync: 16/16
+acquisition quality: 0.79232; tone concentration: 0.76105
+carrier RMS powers: 1200=6.655389e-4, 2200=5.810514e-3; E1/E0 threshold after preamble: 10.89243
+preamble decision errors: power-ratio prior=6, fitted=0
+training threshold profile: [3.57365, 6.39310, 10.00405, 10.89243]
+clock estimated: true; initial/final samples per symbol: 479.953977/479.958495; initial clock: -95.9 ppm
+reference bits: 328; decoded bits: 328; compared bits: 328; errors: 0; missing bits: 0; BER: 0.00000000
+CRC32: OK; reference packet match: true
+low-confidence/error symbols: 11 (showing at most 0)

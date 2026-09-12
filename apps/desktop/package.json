@@ -1,0 +1,52 @@
+{
+  "name": "tonequill-desktop",
+  "version": "0.1.0",
+  "description": "Tonequill desktop application for local acoustic file transfer",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "tauri": "tauri",
+    "desktop": "tauri dev",
+    "bundle": "tauri build",
+    "contracts": "cargo run --manifest-path ../../Cargo.toml -p tonequill-live --example export_bindings -- src/domain/generated.ts",
+    "test:ui": "node e2e/verify.mjs",
+    "test:desktop": "node e2e/desktop.mjs",
+    "contracts:check": "node e2e/contracts.mjs"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.11.1",
+    "@tauri-apps/plugin-dialog": "^2",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@eslint/js": "^10",
+    "@tauri-apps/cli": "^2.11.4",
+    "@testing-library/jest-dom": "^6",
+    "@testing-library/react": "^16",
+    "@testing-library/user-event": "^14",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^6.1.1",
+    "eslint": "^10",
+    "eslint-plugin-react-hooks": "^7",
+    "globals": "^17",
+    "jsdom": "^29",
+    "playwright": "^1",
+    "prettier": "^3",
+    "typescript": "^6",
+    "typescript-eslint": "^8",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.0"
+  }
+}

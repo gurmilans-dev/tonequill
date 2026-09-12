@@ -1,0 +1,43 @@
+# Rust
+/target/
+**/target/
+
+# Python
+/.venv/
+**/__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated audio / test output
+*.wav
+/captures/
+*.jsonl
+*.trace
+*.profraw
+*.tmp
+*.part
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Desktop dependencies and build output
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+/apps/desktop/src-tauri/gen/
+/apps/desktop/e2e/results/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example

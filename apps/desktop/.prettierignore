@@ -1,0 +1,6 @@
+node_modules
+dist
+src-tauri
+src/domain/generated.ts
+package-lock.json
+e2e/results

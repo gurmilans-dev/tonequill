@@ -1,0 +1,27 @@
+{
+  "tx_samples": 504960,
+  "tx_duration_s": 10.52,
+  "legacy_samples": 157440,
+  "identical_first_80_symbols_all_three": true,
+  "silence_nonzero_samples": [
+    0,
+    0,
+    0
+  ],
+  "frames": [
+    {
+      "kind": "metadata",
+      "start_sample": 9600,
+      "bits": 664,
+      "transitions": 314,
+      "longest_run": 59
+    },
+    {
+      "kind": "data",
+      "start_sample": 337920,
+      "bits": 328,
+      "transitions": 186,
+      "longest_run": 28
+    }
+  ]
+}

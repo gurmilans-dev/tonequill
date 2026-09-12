@@ -1,0 +1,11 @@
+[package]
+name = "tonequill-core"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "Tonequill acoustic PHY, framing, transfer protocol, and simulation"
+
+[dependencies]
+crc32fast = "1.5.1"
+sha2 = "0.11.0"
+thiserror = "2.0.20"

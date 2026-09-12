@@ -1,0 +1,5 @@
+[workspace]
+resolver = "2"
+
+members = ["crates/tonequill-core", "crates/tonequill-live", "crates/tonequill-cli", "apps/desktop/src-tauri"]
+default-members = ["crates/tonequill-core", "crates/tonequill-live", "crates/tonequill-cli"]

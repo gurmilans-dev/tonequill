@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+*.bin binary
+*.ico binary
+*.jpg binary
+*.png binary
+
+# These fixtures have byte-exact hashes; preserve their CRLF payloads.
+test-vectors/hello.txt -text whitespace=cr-at-eol
+test-vectors/physical-hello-v0.txt -text whitespace=cr-at-eol

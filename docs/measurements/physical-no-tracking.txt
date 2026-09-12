@@ -1,0 +1,7 @@
+candidates: 1; start: 61920.00 samples; preamble: 64/64; sync: 16/16
+acquisition quality: 0.87947; tone concentration: 0.73150
+carrier RMS powers: 1200=2.003143e-3, 2200=1.902732e-3; E1/E0 threshold: 0.94987
+clock estimated: true; initial/final samples per symbol: 479.970474/479.970474; initial clock: -61.5 ppm
+reference bits: 328; decoded bits: 328; compared bits: 328; errors: 2; missing bits: 0; BER: 0.00609756
+frame validation: FAILED (CRC mismatch: expected 945C24C0, calculated 39E4D1C6)
+low-confidence/error symbols: 63 (showing at most 0)

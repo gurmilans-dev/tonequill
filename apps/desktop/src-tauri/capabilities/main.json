@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main",
+  "description": "Local main window: native pickers and drag/drop events. Audio and file operations use typed Rust commands.",
+  "windows": ["main"],
+  "permissions": ["core:event:default", "core:window:allow-close", "dialog:allow-open", "dialog:allow-save", "dialog:allow-confirm"]
+}

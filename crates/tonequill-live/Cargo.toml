@@ -1,0 +1,17 @@
+[package]
+name = "tonequill-live"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "Live audio and session services for Tonequill"
+
+[dependencies]
+anyhow = "1.0.104"
+cpal = "0.18.2"
+hound = "3.5.1"
+rtrb = "0.3.2"
+tonequill-core = { path = "../tonequill-core" }
+serde = { version = "1", features = ["derive"] }
+thiserror = "2.0.20"
+ts-rs = "12"
+tempfile = "3"

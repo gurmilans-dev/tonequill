@@ -1,0 +1,18 @@
+[package]
+name = "tonequill-desktop"
+version = "0.1.0"
+edition = "2024"
+description = "Local acoustic file transfer for Windows"
+license = "MIT"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+tauri-plugin-opener = "2"
+tonequill-live = { path = "../../../crates/tonequill-live" }
+
+[features]
+custom-protocol = ["tauri/custom-protocol"]
